@@ -219,6 +219,7 @@ object JdbcDialects {
 
   registerDialect(MySQLDialect)
   registerDialect(PostgresDialect)
+  registerDialect(VerticaDialect)
   registerDialect(DB2Dialect)
   registerDialect(MsSqlServerDialect)
   registerDialect(DerbyDialect)
